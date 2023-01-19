@@ -7,8 +7,9 @@ let friends = [
   "Elisabeth",
   "Andrew",
 ];
-let evenNameFriend = [];
+
 /*
+let evenNameFriend = [];
 let findEvenName = (names) => {
   for (let i = 0; i < names.length; i++) {
     //assign each single friend name
@@ -35,10 +36,9 @@ let findEvenName = friends.map((friendName) => {
 console.log(findEvenName);
 */
 //using filter
-/*
+
 let evenLengthName = friends.filter((friend) => friend.length % 2 == 0);
 console.log(evenLengthName);
-*/
 
 //using filter find the odd length names
 /*
